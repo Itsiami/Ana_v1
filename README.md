@@ -11,7 +11,7 @@
 <br/>
 
 ## Explications
-  Ce projet est en cours de développement depuis peu, ayant pour but premier l'apprentissage de *Unity*. Il ne possède pour le moment aucune de mes propres créations. Il ne s'agit là que du résultat d'un tutoriel que je suis pas à pas pour me familiariser avec l'environnement du moteur de jeu *Unity*. Les sprites utilisés sont libre de droits, obtenus sur le site *opengameart* ou en téléchargements dans la description des vidéos Youtube associées à l'étape de développement en cours.
+  Ce projet est en cours de développement depuis peu, ayant pour but premier l'apprentissage de *Unity*. Il ne possède pour le moment aucune de mes propres créations. Il ne s'agit là que du résultat d'un tutoriel que je suis pas à pas pour me familiariser à l'environnement du moteur de jeu *Unity*. Les sprites utilisés sont libre de droits, obtenus sur le site *opengameart* ou en téléchargements dans la description des vidéos Youtube associées à l'étape de développement en cours.
   
 <br/>
 
