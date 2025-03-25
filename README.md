@@ -23,8 +23,8 @@
 
 <br/>
 
-## Résultats actuels
+## Résultat actuel
 
 <p align="center">
-  <img src="https://github.com/Itsiami/Ana_Project_Files/blob/main/First_Platformer_Screen01.png?raw=true" width="600" title="Screenshot">
+  <img src="https://github.com/Itsiami/Ana_Project_Files/blob/main/First_Platformer_Screen01.png?raw=true" width="1000" title="Screenshot">
 </p>
