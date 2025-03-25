@@ -1,6 +1,6 @@
 # Ana
 **Version 1.0** <br/>
-*Aucune installation n'est possible pour le moment*
+*Aucune installation n'est disponible pour le moment*
 
 <br/>
 
