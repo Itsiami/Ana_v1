@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: e755c8f88479d2d4b8d118ed3f6414c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1972530054753149180
+    second: Props01C_0
+  - first:
+      213: 334755755628774672
+    second: Props01C_1
+  - first:
+      213: 8151425348329345827
+    second: Props01C_2
+  - first:
+      213: -4859291623065670254
+    second: Props01C_3
+  - first:
+      213: 7271973328792039470
+    second: Props01C_4
+  - first:
+      213: -5689751120821479414
+    second: Props01C_5
+  - first:
+      213: 2348151880301828814
+    second: Props01C_6
+  - first:
+      213: 7581405998114132292
+    second: Props01C_7
+  - first:
+      213: 2418231692542466125
+    second: Props01C_8
+  - first:
+      213: 5820125978062610514
+    second: Props01C_9
+  - first:
+      213: -958202980383410125
+    second: Props01C_10
+  - first:
+      213: 3822170121903720147
+    second: Props01C_11
+  - first:
+      213: 6977542297112675109
+    second: Props01C_12
+  - first:
+      213: 6089727966286663871
+    second: Props01C_13
+  - first:
+      213: -2500481224642676541
+    second: Props01C_14
+  - first:
+      213: 4704266914551308983
+    second: Props01C_15
+  - first:
+      213: -5370283547541857491
+    second: Props01C_16
+  - first:
+      213: 4002878386326978738
+    second: Props01C_17
+  - first:
+      213: -3100571013875615047
+    second: Props01C_18
+  - first:
+      213: -4490494157839228138
+    second: Props01C_19
+  - first:
+      213: 97731988672769244
+    second: Props01C_20
+  - first:
+      213: -1826494806886428533
+    second: Props01C_21
+  - first:
+      213: -5856901728441180741
+    second: Props01C_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Props01C_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 517
+        width: 1043
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b3a503918c4dd0800000000000000
+      internalID: -2500481224642676541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e81970938e286364f8d37423cf4f0a05
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Props01C_0: -1972530054753149180
+      Props01C_1: 334755755628774672
+      Props01C_10: -958202980383410125
+      Props01C_11: 3822170121903720147
+      Props01C_12: 6977542297112675109
+      Props01C_13: 6089727966286663871
+      Props01C_14: -2500481224642676541
+      Props01C_15: 4704266914551308983
+      Props01C_16: -5370283547541857491
+      Props01C_17: 4002878386326978738
+      Props01C_18: -3100571013875615047
+      Props01C_19: -4490494157839228138
+      Props01C_2: 8151425348329345827
+      Props01C_20: 97731988672769244
+      Props01C_21: -1826494806886428533
+      Props01C_22: -5856901728441180741
+      Props01C_3: -4859291623065670254
+      Props01C_4: 7271973328792039470
+      Props01C_5: -5689751120821479414
+      Props01C_6: 2348151880301828814
+      Props01C_7: 7581405998114132292
+      Props01C_8: 2418231692542466125
+      Props01C_9: 5820125978062610514
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

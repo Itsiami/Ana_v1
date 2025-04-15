@@ -1,35 +1,69 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
-    public float jumpForce;
+    //DEPLACEMENT
+    public float speed = 8f;
+    private float horizontalMovement;
 
-    public Rigidbody2D rb;
-    private Vector3 velocity = Vector3.zero;
+    // COYOTE TIME
+    public float coyoteTime = 0.2f;
+    private float coyoteTimeCounter;
 
+    //SAUT
+    public float jumpForce = 520f;
+    public float fallMultiplier = 3f;
+    public float lowJumpMultiplier = 3.5f;
     public bool isJumping;
     public bool isGrounded;
+    private float jumpTimeCounter;
+    public float maxJumpTime = 0.28f;
+    private float jumpCooldown = 0.1f;
+    private float jumpCooldownTimer;
 
+    //DETECTION DU SOL
     public Transform groundCheck;
-    public float groundCheckRadius;
+    public float groundCheckRadius = 0.2f;
     public LayerMask collisionLayers;
 
+    //REFERENCES
+    public Rigidbody2D rb;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
 
-    private float horizontalMovement;
+    
 
     private void Update()
     {
+        if (jumpCooldownTimer > 0)
+        {
+            jumpCooldownTimer -= Time.deltaTime;
+        }
+
         this.isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
 
-        horizontalMovement = Input.GetAxis("Horizontal") * this.speed * Time.fixedDeltaTime;
-
-        if (Input.GetButtonDown("Jump") && this.isGrounded == true)
+        // COYOTE TIME
+        if (isGrounded)
         {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+        // MOUVEMENT
+        horizontalMovement = Input.GetAxis("Horizontal");
+
+
+        // SAUT
+        if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f && jumpCooldownTimer <= 0)
+        {
+            isGrounded = false;
             this.isJumping = true;
+            jumpTimeCounter = maxJumpTime;
+            coyoteTimeCounter = 0f;
+            jumpCooldownTimer = jumpCooldown; // Pas de nouveau saut immédiat
         }
 
         Flip(rb.linearVelocity.x);
@@ -40,16 +74,42 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        
         MovePlayer(horizontalMovement);
+        BetterJump();
+    }
+
+    private void BetterJump()
+    {
+        // Le joueur tombe : on renforce la gravité
+        if (rb.linearVelocity.y < 0)
+        {
+            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
+        }
+        // Le joueur monte, mais a relâché Jump
+        else if (rb.linearVelocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
+        }
+        
+        // Le joueur maintient le saut, mais on le force à s’arrêter après maxJumpTime
+        if (Input.GetButton("Jump") && jumpTimeCounter > 0)
+        {
+            jumpTimeCounter -= Time.fixedDeltaTime;
+        }
+        else if (Input.GetButton("Jump") && jumpTimeCounter <= 0)
+        {
+            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
+        }
     }
 
     void MovePlayer(float _mouvementHorizontal)
     {
-        Vector3 velociteCible = new Vector2(_mouvementHorizontal, this.rb.linearVelocity.y);
-        this.rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, velociteCible, ref this.velocity, .05f);
+        rb.linearVelocity = new Vector2(_mouvementHorizontal * speed, rb.linearVelocity.y);
 
-        if(this.isJumping == true) 
+        if (isJumping) 
         {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(new Vector2(0f, this.jumpForce));
             this.isJumping = false;
         }

@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 0c9a75720c87a244e8f8c331ca61b776
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7189292787123619990
+    second: Props01L_0
+  - first:
+      213: 132889322171792222
+    second: Props01L_1
+  - first:
+      213: 8067436204118933532
+    second: Props01L_2
+  - first:
+      213: 8075141830446659193
+    second: Props01L_3
+  - first:
+      213: 639153496160081409
+    second: Props01L_4
+  - first:
+      213: 993071537224906297
+    second: Props01L_5
+  - first:
+      213: 8738122623699294981
+    second: Props01L_6
+  - first:
+      213: -6110623737530867021
+    second: Props01L_7
+  - first:
+      213: 631798052303586461
+    second: Props01L_8
+  - first:
+      213: -9053973438142762164
+    second: Props01L_9
+  - first:
+      213: -5236112766236731826
+    second: Props01L_10
+  - first:
+      213: -2204715097948340822
+    second: Props01L_11
+  - first:
+      213: 9053714139643307569
+    second: Props01L_12
+  - first:
+      213: 5584066138477956899
+    second: Props01L_13
+  - first:
+      213: 3250409776139063868
+    second: Props01L_14
+  - first:
+      213: -5046445251601234879
+    second: Props01L_15
+  - first:
+      213: 3368374513967318175
+    second: Props01L_16
+  - first:
+      213: -5926869957144427148
+    second: Props01L_17
+  - first:
+      213: -5266078291916275191
+    second: Props01L_18
+  - first:
+      213: 4035220466767772603
+    second: Props01L_19
+  - first:
+      213: -562875233475558792
+    second: Props01L_20
+  - first:
+      213: 7521942564711290720
+    second: Props01L_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Props01L_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 510
+        width: 1051
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32d9315876cb1d20800000000000000
+      internalID: 3250409776139063868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b6110b859fb8fa47b4b8aaa5423c887
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Props01L_0: 7189292787123619990
+      Props01L_1: 132889322171792222
+      Props01L_10: -5236112766236731826
+      Props01L_11: -2204715097948340822
+      Props01L_12: 9053714139643307569
+      Props01L_13: 5584066138477956899
+      Props01L_14: 3250409776139063868
+      Props01L_15: -5046445251601234879
+      Props01L_16: 3368374513967318175
+      Props01L_17: -5926869957144427148
+      Props01L_18: -5266078291916275191
+      Props01L_19: 4035220466767772603
+      Props01L_2: 8067436204118933532
+      Props01L_20: -562875233475558792
+      Props01L_21: 7521942564711290720
+      Props01L_3: 8075141830446659193
+      Props01L_4: 639153496160081409
+      Props01L_5: 993071537224906297
+      Props01L_6: 8738122623699294981
+      Props01L_7: -6110623737530867021
+      Props01L_8: 631798052303586461
+      Props01L_9: -9053973438142762164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
